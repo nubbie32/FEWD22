@@ -1,0 +1,36 @@
+.background {
+    background-color: chartreuse;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    column-gap: 30em;
+    row-gap: 5em;
+    border: solid;
+    border-color: yellow;
+   
+}
+section {
+    
+
+}
+.block1 {
+    background-color:blue;
+    
+}
+.block2 {
+    background-color: blueviolet;
+}
+.block3 {
+    background-color: brown;
+}
+.block4 {
+    background-color: seagreen;
+}
+.block5 {
+    background-color: slategrey;
+}
+.block6 {
+    background-color: tomato;
+}
