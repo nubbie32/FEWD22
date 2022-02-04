@@ -9,6 +9,7 @@
     row-gap: 5em;
     border: solid;
     border-color: yellow;
+    justify-content: space-evenly;
    
 }
 section {
