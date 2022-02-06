@@ -12,26 +12,112 @@
     justify-content: space-evenly;
    
 }
-section {
-    
 
-}
 .block1 {
     background-color:blue;
-    
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 .block2 {
     background-color: blueviolet;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 .block3 {
     background-color: brown;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 .block4 {
     background-color: seagreen;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 .block5 {
     background-color: slategrey;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 .block6 {
     background-color: tomato;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    grid-template-rows: repeat(6, 100px);
+    gap: 1rem;
+}
+
+.box1 {
+    background-color:blue;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.box2 {
+    background-color: blueviolet;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    grid-row: 5 / 6;
+    grid-column: 1 / 6;
+}
+.box3 {
+    background-color: brown;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 5;
+}
+.box4 {
+    background-color: seagreen;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    grid-row: 1 / 6;
+    grid-column: 6 / 6;
+}
+.box5 {
+    background-color: slategrey;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    grid-row: 3 / 5;
+    grid-column: 2 / 5;
+    
+}
+.box6 {
+    background-color: tomato;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    grid-row: 2 / 5;
+    grid-column: 5/ 6;
+    justify-self: center;
 }
